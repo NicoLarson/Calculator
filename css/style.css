@@ -1,0 +1,35 @@
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 2rem;
+    background-color: #222;
+    color: #fff;
+    font-size: 4rem;
+  }
+  main>div{
+    max-width: 100vw;
+}
+main p {
+    font-size: 6rem;
+    height: 7rem;
+}
+#numbers{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 20rem;
+}
+main li{
+    font-size: 4rem;
+    background-color: #222;
+    color: #fafafa;
+    margin:0.1rem;
+    width: 5rem;
+    height: 5rem;
+    text-align:center;
+}
+#operators{
+    display: flex;
+}
+#operators > li:last-child{
+    width: 12rem;
+}
